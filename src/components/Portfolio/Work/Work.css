@@ -1,0 +1,136 @@
+.work-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.work-item {
+    color: var(--title-color);
+    padding: 0.25rem 0.75rem;
+    font-weight: var(--font-medium);
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.work-item:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.work-container {
+    grid-template-columns: repeat(3, max-content);
+    gap: 3rem;
+}
+
+.work-card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.work-img {
+    width: 280px;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+}
+
+.portfolio-head {
+    margin-bottom: 5rem;
+}
+
+.work-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
+
+.work-btn {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+
+}
+
+.work-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.work-card {
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.work-card:hover {
+    box-shadow: 2px 1px 7px green;
+}
+
+/* Active Work */
+.active-work {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+@media screen and (max-width: 992px) {
+    .work-container {
+        grid-template-columns: repeat(2, max-content);
+        gap: 1.25rem;
+    }
+
+    .work-card {
+        padding: 1rem;
+    }
+
+    .work-img {
+        margin-bottom: 0.75rem;
+    }
+
+    .work-title {
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-container {
+        grid-template-columns: max-content;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .work-container {
+        grid-template-columns: 1fr;
+        gap: 1.40rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .work-container {
+        grid-template-columns: 1fr;
+    }
+
+    .work-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .work-item {
+        font-size: var(--small-font-size);
+    }
+
+    .work-filter {
+        column-gap: 0.25rem;
+    }
+}

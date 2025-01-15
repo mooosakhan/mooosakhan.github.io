@@ -1,0 +1,75 @@
+.loader {
+    width: 300px; /* Make the loader bigger */
+    height: 200px; /* Adjust the size */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  /* /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+      width: 4px; /* Thin scrollbar */
+      height: 0px; /* Thin horizontal scrollbar */
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background-color: #4fd1c5; /* Teal-300 color */
+      border-radius: 10px; /* Rounded edges */
+      transition: background-color 0.3s ease, transform 0.3s ease; /* Animation */
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #38b2ac; /* Teal-400 color on hover */
+      transform: scale(2.9); /* Slightly enlarge on hover */
+    }
+  
+    ::-webkit-scrollbar-track {
+      --tw-bg-opacity: 1;
+      background-color: rgb(39 39 42 / var(--tw-bg-opacity));/* Zinc-800 background color */
+      border-radius: 10px;
+    }
+  
+    /* For horizontal scrollbar */
+    ::-webkit-scrollbar-horizontal {
+      height: 8px;
+    }
+  
+    ::-webkit-scrollbar-thumb-horizontal {
+      background-color: #4fd1c5; /* Teal-300 color */
+      border-radius: 10px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+  
+    ::-webkit-scrollbar-thumb-horizontal:hover {
+      background-color: #38b2ac; /* Teal-400 color on hover */
+      transform: scale(1.1);
+    }
+  
+  
+    .portfolio {
+      display: flex;
+      height: 100vh;
+    }
+  
+    .left-section {
+      flex: 1;
+      position: fixed;
+      width: 50%;
+      height: 100%;
+    }
+  
+    .right-section {
+      flex: 1;
+      margin-left: 50%;
+      overflow-y: scroll;
+      height: 100vh;
+    }
+  
