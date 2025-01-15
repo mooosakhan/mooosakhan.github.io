@@ -1,3 +1,5 @@
+import ee from "./../../../assets/ee.png";
+
 export const projects = [
   {
     id: 1,
@@ -33,7 +35,7 @@ export const projects = [
   },
   {
     id: 5,
-    image: "https://github.com/mooosakhan/Portfolio.me/blob/main/src/assets/images/ESS.png?raw=true",
+    image: ee,
     title: "Exclusive Ecommerce",
     description: "Exclusive Ecommerce an ecommerce website",
     url: "https://exclusives-ecommerce.vercel.app",
