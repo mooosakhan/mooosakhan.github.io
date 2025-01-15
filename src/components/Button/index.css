@@ -43,8 +43,9 @@
   display: none;
 }
 
+
 .btn-53 {
-  border: 3px solid #5eead4;
+  border: .5em solid rgb(236, 233, 233); /* Corrected border to 1px */
   border-radius: 2.25rem;
   box-sizing: border-box;
   display: block;
@@ -54,6 +55,7 @@
   position: relative;
   text-transform: uppercase;
 }
+
 
 .btn-53 .original {
   background: #18181B;
