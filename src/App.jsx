@@ -42,7 +42,7 @@ function App() {
             {/* Left Section - 3D Avatar */}
             <div className="w-full h-[50vh] lg:h-screen lg:w-1/2">
         <img
-          src="blob:https://web.whatsapp.com/155a0f10-e750-4bed-a5ec-7f3b08e2ac3a"
+          src="https://raw.githubusercontent.com/mooosakhan/mooosakhan.github.io/refs/heads/main/src/assets/WhatsApp%20Image%202025-02-06%20at%204.05.26%20PM.jpeg"
           alt="Profile"
           className="object-cover w-full h-full"
         />
