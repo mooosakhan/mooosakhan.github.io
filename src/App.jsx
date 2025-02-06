@@ -42,7 +42,7 @@ function App() {
             {/* Left Section - 3D Avatar */}
             <div className="w-full h-[50vh] lg:h-screen lg:w-1/2">
         <img
-          src="https://sabyasachiseal.com/wp-content/img/main.jpg"
+          src="blob:https://web.whatsapp.com/155a0f10-e750-4bed-a5ec-7f3b08e2ac3a"
           alt="Profile"
           className="object-cover w-full h-full"
         />
