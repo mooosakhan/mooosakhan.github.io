@@ -82,7 +82,7 @@ const Index = () => {
 
         <div className="Download mx-10">
           <button className="download-btn pixel-corners">
-          <a href="./../../../public/MoosaKhanResume.pdf" download="MoosaKhanResume.pdf" className="download-btn pixel-corners">
+          <a href="/MoosaKhanResume.pdf" download="MoosaKhanResume.pdf" className="download-btn pixel-corners">
   <div className="button-content">
     <div className="svg-container">
       <svg
